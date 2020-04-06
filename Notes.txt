@@ -1,0 +1,56 @@
+NPM init
+
+package name test
+description: working with dependecies
+entry point : default
+
+test command   blank
+
+key word tes
+
+sudo NPM install
+
+to get xpress
+
+Npm install express-generator -g
+sudo npm install express-generator -g
+
+install http server 
+
+DB.JS
+
+
+create DB.json file with the folder that has the read me file
+
+
+
+
+db.json
+{
+	"pokemon";
+}
+
+npm install express --save -g
+
+to link node with express
+
+npn install
+
+create a new file manually db.js
+
+
+express --view = ejs
+
+npm install -g  json-server
+
+check if it is working
+
+add http server
+
+npm install http-server -g
+
+npm start
+
+npm watch
+
+json-server -- watch db.json --port 8080
