@@ -52,7 +52,7 @@ npm install http-server -g
 npm start
 
 npm watch
-
+ nodemon -e js,ejs
 json-server -- watch db.json --port 8080
 
 json-server --watch db.json

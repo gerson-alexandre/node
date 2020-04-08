@@ -14,6 +14,8 @@ router.get('/:pokeId', function(req, res, next){
         res.render('view', {poke: JSON.parse(body)});
 
     })
+   
 })
+
 
 module.exports = router;

@@ -11,7 +11,8 @@ router.get('/', function(req, res, next) {
     pokemon: Pokemon,
     message: false,
   }
-  res.render('index',data)
+  res.render('index', data)
+  
 });
 
 module.exports = router;

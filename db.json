@@ -1,9 +1,42 @@
 {
-    "pokemon": [{
-        "id": 1, 
-        "name": "Add New",
-        "image": "https://cdn2.iconfinder.com/data/icons/transparent-round-icons/512/add.png" }
-    ]
-
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Pokemon",
+      "image": "https://www.wayfair.com/decor-pillows/pdx/room-mates-pokemon-pikachu-wall-decal-rzm2752.html"
+    },
+    {
+      "id": "2"
+    },
+    {
+      "id": "3"
+    },
+    {
+      "id": "4"
+    },
+    {
+      "id": "5"
+    },
+    {
+      "id": "6"
+    },
+    {
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "name": "Computer Systems",
+      "image": "test"
+    },
+    {
+      "id": "9",
+      "name": "Tester",
+      "image": "tester"
+    },
+    {
+      "id": "10",
+      "name": "Control Systems",
+      "image": "MVC"
+    }
+  ]
 }
-
