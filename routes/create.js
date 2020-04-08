@@ -11,6 +11,7 @@ router.get('/', function(req, res, next){
 router.post('/', function(req, res, next){
 
     var id = Pokemon.pokemon.length
+    
     request({
         url:"http://localhost:3000",
         method:"post",
