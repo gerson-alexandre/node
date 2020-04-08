@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Hero APP | New
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     <style>
+
+       body{
+         padding-top: 15px;
+       }
+
+       img{
+        width: 100%;
+       }
+     </style>
+  </head>
+
+<body>
+    <div class="container">
+       
+        <div class="panel panel-danger">
+            <div class="card card-title bg-danger text-center">
+                <h1>Add a New Hero Time.</h1>
+            </div>
+            <div class="card" id="all">
+
+                <% if (message) { %>
+                    <div class="alert alert-success" role="alert">
+                        <%= message %>
+                    </div>
+                    <% } %>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="inputName">Hero Name</label>
+                        <input type="text"name="inputName" id="inputName"placeholder ="Enter a a hero Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputURL">Image URL</label>
+                        <input type="text" name="imageURL" id="imageURL"placeholder="link to hero image" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-success btn-block btn-success"> Add Hero</button>
+                    </div>
+                </form>
+            </div>
+            <div class="panel-footer text-center" type="submit">
+                <p>All rights reserved 2020 | Alex G.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

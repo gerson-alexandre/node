@@ -1,6 +1,6 @@
-var express = require('expresss');
-var router = espress.Router();
-var  pokemon = require('../db.jsoo');
+var express = require('express');
+var router = express.Router();
+var  pokemon = require('../db.json');
 var request = require('request');
 
 router.get('/:pokeId', function(req, res, next){

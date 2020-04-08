@@ -1,0 +1,9 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "image": "typicode"
+    }
+  ]
+}
